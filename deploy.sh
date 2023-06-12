@@ -17,6 +17,6 @@ git add -A
 git commit -m 'deploy: vue2 docs'
 
 # 如果发布到 https://<USERNAME>.github.io
-git push -f https://github.com/yanyue404/v2.cn.vuejs.org.git master:gh-pages
+git push -f https://github.com/yanyue404/vue2.git master:gh-pages
 
 cd -
