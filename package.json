@@ -7,6 +7,7 @@
   "scripts": {
     "dev": "node _scripts/sync-sponsors.js && hexo server",
     "build": "node _scripts/pre-deploy.js && hexo clean && hexo generate",
+    "deploy:yanyue404": "sh deploy.sh",
     "deploy": "npm run build && hexo deploy",
     "lint": "zhlint 'src/v2/{guide,api,style-guide}/*.md'",
     "lint:fix": "zhlint 'src/v2/{guide,api,style-guide}/*.md' --fix"
