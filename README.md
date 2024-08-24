@@ -15,6 +15,13 @@ $ pnpm install
 $ pnpm start # 开发服务器地址为 http://localhost:4000
 ```
 
+## TODO
+
+- 待迁移 
+   - https://github.com/vuejs/v2.cn.vuejs.org/tree/master/src/eol
+   - https://github.com/vuejs/v2.cn.vuejs.org/tree/master/src/lts
+   - https://github.com/vuejs/v2.cn.vuejs.org/blob/master/src/v2/guide/migration-vue-2-7.md
+
 ## 部署
 
 该站点通过 [CircleCI](https://circleci.com/) 对 `master` 分支进行自动部署。
